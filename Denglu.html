@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title align="center" >登录页面</title>
+</head>
+
+<body>
+<form>
+<!-- 边框深度属性border -->
+<table align="center" width="800" >
+<tr align="center">用户注册</tr>  
+<tr>
+<td align="right">用户名：</td>
+<td>
+<input type="text" name="username"></input>
+</td>
+<td>用户名由3-5个字符组成</td>
+</tr>
+<tr>
+<td align="right">密码：</td>
+<td>
+<input type="password" name="passport"></input>
+</td>
+<td>请输入8-12位密码</td>
+</tr>
+<tr>
+<td align="right">确认密码：</td>
+<td>
+<input type="password" name="confirm passport"></input>
+</td>
+<td>两次密码要一致</td>
+</tr>
+<tr>
+<td align="right">Email:</td>
+<td>
+<input type="email" name="Email"></input>
+</td>
+<td>格式示例：2415190861@qq.com</td>
+</tr>
+
+<tr>
+<td align="right">手机号码：</td>
+<td>
+<input type="text" name="TelNumber"></input>
+</td>
+<td>格式示例：19503610919</td>
+</tr>
+
+<tr>
+<td align="right">真实姓名：</td>
+<td>
+<input type="text" name="Autonym"></input>
+</td>
+<td>由2-5个中文组成</td>
+</tr>
+
+<tr>
+<td align="right">省份：</td>
+<td>
+<select name="province" >
+<option value="0">--请选择--</option>
+<option value="1">安徽</option>
+<option value="2">福建</option>
+<option value="3">广东</option>
+<option value="4">河南</option>
+<option value="5">河北</option>
+<option value="6">三亚</option>
+<option value="7">山西</option>
+<option value="8">山东</option>
+<option value="9">陕西</option>
+<option value="10">新疆</option>
+</select>
+</td>
+<td>请选择省份</td>
+</tr>
+<tr>
+<td align="right">技术方向：</td>
+<td>
+<input name="Techdirection" type="checkbox" value="Java"/>Java
+<input name="Techdirection" type="checkbox" value=".Net"/>.Net
+<input name="Techdirection" type="checkbox" value="PHP"/>PHP
+<input name="Techdirection" type="checkbox" value="网页"/>网页
+<input name="Techdirection" type="checkbox" value="IOS"/>IOS
+<input name="Techdirection" type="checkbox" value="Android"/>Android
+</td>
+</tr>
+<tr>
+<!----不要忘记td----->
+<td colspan="2" align="center" >  
+<input name="register" type="submit" value="注册"/>
+<input name="reset" type="reset"/ value="重置"/>
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+
+</html>
